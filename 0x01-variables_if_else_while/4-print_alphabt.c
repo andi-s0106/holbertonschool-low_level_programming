@@ -5,7 +5,7 @@
   *
   * Return: alphabet in lowercase excluding 'q' and 'e'
   */
-int main (void)
+int main(void)
 {
 	char a;
 
