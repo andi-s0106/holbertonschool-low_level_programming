@@ -9,16 +9,25 @@
 int main(void)
 {
     char c;
-    
-    _putchar('H');
-    _putchar('O');
-    _putchar('l');
-    _putchar('b');
-    _putchar('e');
-    _putchar('r');
-    _putchar('t');
-    _putchar('o');
-    _putchar('n');
+
+    c = "H";
+    _putchar(c);
+    c = "o";
+    _putchar(c);
+    c = 'l';
+    _putchar(c);
+    c = 'b';
+    _putchar(c);
+    c = 'e';
+    _putchar(c);
+    c = 'r';
+    _putchar(c);
+    c = 't';
+    _putchar(c);
+    c = 'o';
+    _putchar(c);
+    c = 'n';
+    _putchar(c);
     _putchar('\n');
     return (0);
 }
