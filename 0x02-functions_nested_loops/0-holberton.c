@@ -2,7 +2,7 @@
 
 /**
  * main - prints holberton followed by a new line
- * 
+ *
  * Return: Holberton\n
  */
 
