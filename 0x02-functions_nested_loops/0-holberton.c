@@ -8,6 +8,8 @@
 
 int main(void)
 {
+    char c;
+    
     _putchar('H');
     _putchar('O');
     _putchar('l');
