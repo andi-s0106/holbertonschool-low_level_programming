@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * times_table: prints the mult table from 0 to 9
+ * times_table - prints the mult table from 0 to 9
  */
 
 void times_table(void)
@@ -9,7 +9,7 @@ void times_table(void)
 	int m;
 	int r;
 
-	for ( n= 0; n <= 9; n++)
+	for (n = 0; n <= 9; n++)
 	{
 		for (m = 0; m <= 9; m++)
 		{
