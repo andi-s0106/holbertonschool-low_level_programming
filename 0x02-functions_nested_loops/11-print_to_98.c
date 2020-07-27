@@ -6,9 +6,9 @@
  */
 void print_to_98(int n)
 {
-	while(n < 0)
+	while (n < 0)
 	{
-		if(n >= -9)
+		if (n >= -9)
 		{
 			n = n * -1;
 			_putchar('-');
@@ -27,9 +27,9 @@ void print_to_98(int n)
 		_putchar(' ');
 		n++;
 	}
-	while(n >= 0 && n <= 98)
+	while (n >= 0 && n <= 98)
 	{
-		if(n < 9)
+		if (n < 9)
 		{
 			_putchar(n + '0');
 		}
@@ -38,7 +38,7 @@ void print_to_98(int n)
 			_putchar((n / 10) + '0');
 			_putchar((n % 10) + '0');
 		}
-		if(n != 98)
+		if (n != 98)
 		{
 			_putchar(',');
 			_putchar(' ');
