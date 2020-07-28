@@ -29,7 +29,7 @@ void print_to_98(int n)
 	}
 	while (n >= 0 && n <= 98)
 	{
-		if (n < 9)
+		if (n <= 9)
 		{
 			_putchar(n + '0');
 		}
