@@ -4,6 +4,6 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
-0-main.c;
+int _putchar(char c);
 
 #endif /* HOLBERTON_H */
