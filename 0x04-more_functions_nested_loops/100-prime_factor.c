@@ -29,6 +29,6 @@ int main(void)
 			f++;
 		}
 	}
-	printf("%l\n", h);
+	printf("%lu\n", h);
 	return (0);
 }
