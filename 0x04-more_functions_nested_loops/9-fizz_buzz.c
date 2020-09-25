@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 /**
  *main - prints numbers from 1 to 100
@@ -27,9 +28,9 @@ int main(void)
 		}
 		if (n < 100)
 		{
-			printf(' ');
+			printf(" ");
 		}
 	}
-	printf('\n');
+	printf("\n");
 	return (0);
 }
