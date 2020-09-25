@@ -1,5 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
+int get_exponent(int);
+int number_length(unsigned int);
 /**
  *print_number - prints an integer
  *@n: number to print
