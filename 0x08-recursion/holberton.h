@@ -18,5 +18,9 @@ int _sqrt_recursion(int n);
 int calc(int n, int mult);
 int is_prime_number(int n);
 int calc(int n, int div);
+int is_palindrome(char *s);
+int check(char *s, int len, int counter, int half);
+int length(char *str, int len);
+
 
 #endif /*Header holberton.h*/
