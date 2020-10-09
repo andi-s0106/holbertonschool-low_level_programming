@@ -14,5 +14,7 @@ int _strlen_recursion(char *s);
 int len(char *s, int counter);
 int factorial(int n);
 int _pow_recursion(int x, int y);
+int _sqrt_recursion(int n);
+int calc(int n, int mult);
 
 #endif /*Header holberton.h*/
