@@ -22,7 +22,7 @@ void _print_rev_recursion(char *s)
 /**
  *rev_string - reverses a string
  *@s: string to be reversed
- *Return - reversed string
+ *Return: reversed string
  */
 char *rev_string(char *s)
 {
