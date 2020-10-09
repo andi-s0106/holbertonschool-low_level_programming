@@ -12,5 +12,6 @@ void _print_rev_recursion(char *s);
 char *rev_string(char *s);
 int _strlen_recursion(char *s);
 int len(char *s, int counter);
+int factorial(int n);
 
 #endif /*Header holberton.h*/
