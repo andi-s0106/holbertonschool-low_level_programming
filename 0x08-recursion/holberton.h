@@ -11,5 +11,6 @@ void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 char *rev_string(char *s);
 int _strlen_recursion(char *s);
+int len(char *s, int counter);
 
 #endif /*Header holberton.h*/
