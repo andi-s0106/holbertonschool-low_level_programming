@@ -24,20 +24,10 @@ void _print_rev_recursion(char *s)
  *@s: string to be reversed
  *Return - reversed string
  */
-char rev_string(char *s)
+char *rev_string(char *s)
 {
-	int len;
-	int head;
-	char tmp;
-
-	for (len = 1; s[len]; len++)
-	{}
-
-	for (head = 0; head < len; head++, len--)
-	{
-		tmp = s[len - 1];
-		s[len - 1] = s[head];
-		s[head] = tmp;
-	}
-	return (tmp);
+	s++;
+	if (*(s + 1) == '\0')
+		return (s);
+	return (rev(s));
 }
