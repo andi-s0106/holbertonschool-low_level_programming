@@ -29,5 +29,5 @@ char *rev_string(char *s)
 	s++;
 	if (*(s + 1) == '\0')
 		return (s);
-	return (rev(s));
+	return (rev_string(s));
 }
