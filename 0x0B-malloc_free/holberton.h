@@ -14,5 +14,7 @@ int _strlen(char *s);
 int **alloc_grid(int width, int height);
 void freeing(int **heap_array, int height);
 void free_grid(int **grid, int height);
+char *argstostr(int ac, char **av);
+int length(int ac, char **av);
 
 #endif /*Header holberton.h*/
