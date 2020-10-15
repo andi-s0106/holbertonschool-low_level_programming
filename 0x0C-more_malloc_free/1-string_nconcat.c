@@ -34,7 +34,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	return (heap_array);
 }
 /**
- *_strlen = returns the length of a string
+ *length - returns the length of a string
  *@s: the string to be measured
  *Return: the length of s
  */
