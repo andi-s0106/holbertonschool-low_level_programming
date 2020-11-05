@@ -1,9 +1,9 @@
-#ifndef HOLBERTON_H
-#define HOLBERTON_H
-#include <stdio.h>
-#include <stdarg.h>
+#ifndef _LISTS
+#define _LISTS
+
 #include <stdlib.h>
-#include <unistd.h>
+#include <string.h>
+#include <stdio.h>
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -27,5 +27,4 @@ list_t *add_node(list_t **head, const char *str);
 list_t *add_node_end(list_t **head, const char *str);
 void free_list(list_t *head);
 
-
-#endif /*Header holberton.h*/
+#endif
