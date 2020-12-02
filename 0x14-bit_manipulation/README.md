@@ -8,3 +8,4 @@ Learning bit manipulation
 3-set_bit.c
 4-clear_bit.c
 5-flip_bits.c
+100-get_endianness.c
