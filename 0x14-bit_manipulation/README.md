@@ -1,6 +1,5 @@
-0x03-debugging
+0x14-bit_manipulation
 
-Learning how to debbug
+Learning bit manipulation
 
-0-main
-
+0-binary_to_uint.c
